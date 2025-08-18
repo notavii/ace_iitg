@@ -24,6 +24,10 @@ header {
   float: left;
   line-height: 100px;
 }
+
+
+
+
 .logo a {
   text-decoration: none;
   font-size: 30px;
@@ -76,20 +80,23 @@ nav a:hover:after {
   transform: translateX(-50%) scaleX(1);
 }
 @-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
+  0% {opacity: 0.4;}
+  50% {opacity: 0.8;}
+  1000% {opacity: 1;}
+
 }
 @keyframes fade {
-  from {
+
+   0% {opacity: 0.4;}
+  50% {opacity: 0.8;}
+  1000% {opacity: 1.4;}
+
+  /* from {
     opacity: 0.4;
   }
   to {
     opacity: 1;
-  }
+  } */
 }
 
 .dropdown {
